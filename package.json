@@ -1,14 +1,17 @@
 {
-  "name": "testWidget",
+  "name": "test-widget",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "express": "^4.14.1"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }
