@@ -1,8 +1,9 @@
 function a () {
-  alert('<%= test %>')
+  alert('{{{ test }}}')
 }
 
 window.addEventListener('load', function() {
+  a();
     var div = document.createElement('div');
     div.setAttribute('id', 'bookOnline');
     div.style.position = 'fixed';
